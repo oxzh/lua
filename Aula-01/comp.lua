@@ -13,3 +13,9 @@ print(numero)
 print(casas)
 
 print(casas + numero)
+
+print(numero >= casas)
+
+--numero = 200, casas = 400 so, 200<400 not >400
+
+
