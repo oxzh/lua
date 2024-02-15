@@ -6,3 +6,10 @@ print(25>=5)
 
 print(5>=25)
 --5 is less than 25 so returns true.
+
+numero = 200 
+casas = 400
+print(numero)
+print(casas)
+
+print(casas + numero)
