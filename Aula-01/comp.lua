@@ -22,3 +22,11 @@ print(numero <= casas)
 
 --now returns true bcs its less than 400
 
+
+pa = "concatenacao d"
+
+rt ="e texto"
+
+print(pa .. rt)
+
+-- ".." equals concatenation, he grabs the text and joins together(concatenation).
