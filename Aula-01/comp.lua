@@ -18,4 +18,7 @@ print(numero >= casas)
 
 --numero = 200, casas = 400 so, 200<400 not >400
 
+print(numero <= casas)
+
+--now returns true bcs its less than 400
 
