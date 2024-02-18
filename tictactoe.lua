@@ -28,6 +28,7 @@ c = game[3] .. "   ".. game[6] .. "   " .. game[9]
 
 
 --print "Starting game.",  wait for 1s then, clear the terminal, and print again with new . "... game.." to simulate an animation
+os.execute("clear")
 print("Starting game.")
 os.execute("sleep 1")
 os.execute("clear")
@@ -48,20 +49,34 @@ print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
 
 
 
+
+print("digite um numero: ")
+
+v1 = io.read()
+
+print("digite um numero: ")
+
+v2 = io.read()
+
 print("digite 1 para soma, digite 2 para divisão: ")
 
 
 op = io.read()
-
+opc = 1
 if op == "1" then
+    print("Foi escolhido soma.")
   r =  v1 + v2
+  opc = "soma"
 
 elseif op == "2" then
+    print("Foi escolhido divisão.")
   r =  v1 / v2
+ opc = "divisao"
 
 
 end
 
+print("O resultado da sua " .. opc .. " é: " .. r)
 
 
 
