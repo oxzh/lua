@@ -20,7 +20,8 @@ print(
 
 
 --prints normal if have ONE array, but using two, i cant print for some reason; a = (game[1], game[2]);  a = (game[1];  game[2])
-a = game[1] .. "    ".. game[2]
+a = game[1] .. "   ".. game[2] .. "   " .. game[3]
+
 print(a)
 
 
