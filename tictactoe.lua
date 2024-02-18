@@ -32,10 +32,16 @@ os.execute("clear")
 
 print("Starting game.")
 os.execute("sleep 1")
+os.execute("clear")
+
+
 print("Starting game..")
 os.execute("sleep 1")
-print("Starting game...")
+os.execute("clear")
 
+print("Starting game...")
+os.execute("sleep 1")
+os.execute("clear")
 --[[
 game[1]  game[4] game[7]
 game[2]  game[5]  game[8]
