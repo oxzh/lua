@@ -30,7 +30,12 @@ print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
 
 os.execute("clear")
 
-print ("terminal cleared!")
+print("Starting game.")
+os.execute("sleep 1")
+print("Starting game..")
+os.execute("sleep 1")
+print("Starting game...")
+
 --[[
 game[1]  game[4] game[7]
 game[2]  game[5]  game[8]
