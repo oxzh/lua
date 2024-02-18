@@ -1,6 +1,6 @@
 game = {
     [1] = "0",  [4] = "0",  [7] = "0",
-    [2] = "0",  [5] = "X",  [8] = "0",
+    [2] = "0",  [5] = "0",  [8] = "0",
     [3] = "0",  [6] = "0",  [9] = "0"
 }
 
@@ -26,10 +26,11 @@ c = game[3] .. "   ".. game[6] .. "   " .. game[9]
 
 
 
-print("\n", a, "\n", b, "\n", c )
+print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
 
+os.execute("clear")
 
-
+print ("terminal cleared!")
 --[[
 game[1]  game[4] game[7]
 game[2]  game[5]  game[8]
