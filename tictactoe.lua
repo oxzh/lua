@@ -5,7 +5,7 @@ game = {
 }
 
 
---prints normal if have ONE array, but using two, i cant print for some reason; a = (game[1], game[2]);  a = (game[1];  game[2])
+--prints normal if have ONE array, but using two, i cant print for some reason; a = (game[1], game[2]);  a = (game[1];  game[2]) old shit
 a = game[1]
 b = game[2] 
 c = game[3] 
@@ -37,30 +37,22 @@ os.execute("clear")
 --print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
 
 
-print("O jogador Um ficará com o número 3, e o jogador número Dois ficará com o número 6")
---os.execute("sleep 2")
+print("The player One will be the number 3, and the Player Two number 6")
+os.execute("sleep 2")
 
-print("A forma que está o jogo é da esquerda para a direita. 1, 2, 3...")
---os.execute("sleep 2")
-print(" e por aí vai.")
---os.execute("sleep 2")
+print("The game is read by left to right. 1, 2, 3...")
+os.execute("sleep 2")
+
+print("If the game ends before the program finish, press <CTRL-C> to leave.")
+os.execute("sleep 2")
 
 os.execute("clear")
 
 
-io.write("Agora O jogador Um escolha um local para por seu número: ", "\n",
-print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
-)
-
-numlocalX = io.read()
- 
-
-
-
-
---function of move 1
+--FUNC PLAYER 1
 local function player1()
-
+    numlocalX = io.read()
+    
     if numlocalX == "1" then
         a = 3
     
@@ -78,35 +70,129 @@ local function player1()
     
     elseif numlocalX == "6" then
         f = 3
-    
+        
     elseif numlocalX == "7" then
         g = 3
         
     elseif numlocalX == "8" then
         h = 3
-    
+        
     elseif numlocalX == "9" then
         i = 3
         
     end
 end
 
+--FUNC PLAYER 2
+local function player2()
+    numlocalX = io.read()
 
 
-player1()
+    if numlocalX == "1" then
+        a = 6
+    
+    elseif numlocalX == "2" then
+        b = 6
+    
+    elseif numlocalX  == "3" then
+        c = 6
+    
+    elseif numlocalX == "4" then
+        d = 6
+    
+    elseif numlocalX == "5" then
+        e = 6
+    
+    elseif numlocalX == "6" then
+        f = 6
+    
+    elseif numlocalX == "7" then
+        g = 6
+    
+    elseif numlocalX == "8" then
+        h = 6
+    
+    elseif numlocalX == "9" then
+        i = 6
+    
+     end
+
+end
+
+
+--FUNC TO ASK PLAYER 1
+local function askPlayer1()
+    io.write("Now the player ONE select a local to put your number: ", "\n",
+    print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+    )
+end
+
+--FUNC TO ASK PLAYER 2
+local function askPlayer2()
+    io.write("Now the player ONE select a local to put your number: ", "\n",
+    print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+    )
+end
+
+
+
+
+askPlayer1()
+
+    player1()
+
 os.execute("clear")
 
 
-io.write("Agora O jogador Dois escolha um local para por seu número: ", "\n",
-print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
-)
+
+askPlayer2()
+
+    player2()
+
+os.execute("clear")
 
 
 
+askPlayer1()
+
+    player1()
+
+os.execute("clear")
 
 
 
+askPlayer2()
 
+    player2()
+
+os.execute("clear")
+
+
+askPlayer1()
+
+
+    player1()
+
+
+os.execute("clear")
+
+
+
+askPlayer2()
+
+    player2()
+
+os.execute("clear")
+
+
+--[[seeing if its possible to call function inside a function
+local function test()
+    askPlayer1()
+    player2()
+end
+
+teste()
+--]]
 --[[OLD CODE
 
 
