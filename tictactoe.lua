@@ -38,7 +38,7 @@ os.execute("clear")
 --print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
 
 
-print("O jogador Um ficará com o número 3, e o jogador número Dois ficará com o número 0")
+print("O jogador Um ficará com o número 3, e o jogador número Dois ficará com o número 6")
 --os.execute("sleep 2")
 
 print("A forma que está o jogo é de cima para baixo ou seja, 1, 2 e 3 são o primeiro da esquerda, segundo e terceiro.")
@@ -67,30 +67,59 @@ elseif numlocalX == "4" then
     d = 3
 
 elseif numlocalX == "5" then
-    d = 3
+    e = 3
 
 elseif numlocalX == "6" then
-    d = 3
+    f = 3
 
 elseif numlocalX == "7" then
-    d = 3
+    g = 3
 
 elseif numlocalX == "8" then
-    d = 3
+    h = 3
 
 elseif numlocalX == "9" then
-    d = 3
+    i = 3
 
 end
 
 print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
 
 
+io.write("Agora O jogador Dois escolha um local para por seu número: ", "\n",
+print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+)
 
 
+numlocalX = io.read()
+if numlocalX == "1" then
+    a = 6
 
+elseif numlocalX == "2" then
+    b = 6
 
+elseif numlocalX  == "3" then
+    c = 6
 
+elseif numlocalX == "4" then
+    d = 6
+
+elseif numlocalX == "5" then
+    e = 6
+
+elseif numlocalX == "6" then
+    f = 6
+
+elseif numlocalX == "7" then
+    g = 6
+
+elseif numlocalX == "8" then
+    h = 6
+
+elseif numlocalX == "9" then
+    i = 6
+
+end
 
 
 
