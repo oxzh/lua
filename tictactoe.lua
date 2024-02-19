@@ -49,9 +49,38 @@ print(" e por aí vai.")
 os.execute("clear")
 
 
+io.write("Agora O jogador Um escolha um local para por seu número: ", "\n",
+print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+)
+
 numlocalX = io.read()
 if numlocalX == "1" then
     a = 3
+
+elseif numlocalX == "2" then
+    b = 3
+
+elseif numlocalX  == "3" then
+    c = 3
+
+elseif numlocalX == "4" then
+    d = 3
+
+elseif numlocalX == "5" then
+    d = 3
+
+elseif numlocalX == "6" then
+    d = 3
+
+elseif numlocalX == "7" then
+    d = 3
+
+elseif numlocalX == "8" then
+    d = 3
+
+elseif numlocalX == "9" then
+    d = 3
+
 end
 
 print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
