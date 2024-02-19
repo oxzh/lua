@@ -53,6 +53,64 @@ print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
 )
 
 numlocalX = io.read()
+ 
+
+
+
+
+--function of move 1
+local function player1()
+
+    if numlocalX == "1" then
+        a = 3
+    
+    elseif numlocalX == "2" then
+        b = 3
+    
+    elseif numlocalX  == "3" then
+        c = 3
+    
+    elseif numlocalX == "4" then
+        d = 3
+    
+    elseif numlocalX == "5" then
+        e = 3
+    
+    elseif numlocalX == "6" then
+        f = 3
+    
+    elseif numlocalX == "7" then
+        g = 3
+        
+    elseif numlocalX == "8" then
+        h = 3
+    
+    elseif numlocalX == "9" then
+        i = 3
+        
+    end
+end
+
+
+
+player1()
+os.execute("clear")
+
+
+io.write("Agora O jogador Dois escolha um local para por seu número: ", "\n",
+print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+)
+
+
+
+
+
+
+
+--[[OLD CODE
+
+
+numlocalX = io.read()
 if numlocalX == "1" then
     a = 3
 
@@ -82,7 +140,6 @@ elseif numlocalX == "9" then
 
 end
 
-print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
 
 os.execute("clear")
 
