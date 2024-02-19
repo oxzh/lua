@@ -5,27 +5,18 @@ game = {
 }
 
 
---[[ old code
-
-print(
-    game[1],  game[4],  game[7]
-)
-print(
-    game[2],  game[5],  game[8]
-)
-print(
-    game[3],  game[6],  game[9]
-)
-
-]]--
-
 --prints normal if have ONE array, but using two, i cant print for some reason; a = (game[1], game[2]);  a = (game[1];  game[2])
-a = game[1] .. "   ".. game[4] .. "   " .. game[7]
-b = game[2] .. "   ".. game[5] .. "   " .. game[8]
-c = game[3] .. "   ".. game[6] .. "   " .. game[9]
+a = game[1]
+b = game[2] 
+c = game[3] 
 
+d = game[4]
+e = game[5]
+f = game[6]
 
-
+g = game[7]
+h = game[8]
+i = game[9]
 
 --print "Starting game.",  wait for 1s then, clear the terminal, and print again with new . "... game.." to simulate an animation
 os.execute("clear")
@@ -44,11 +35,37 @@ os.execute("clear")
 
 
 
-print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
+--print("Tic Tac Toe Game:", "\n", a, "\n", b, "\n", c )
+
+
+print("O jogador Um ficará com o número 3, e o jogador número Dois ficará com o número 0")
+--os.execute("sleep 2")
+
+print("A forma que está o jogo é de cima para baixo ou seja, 1, 2 e 3 são o primeiro da esquerda, segundo e terceiro.")
+--os.execute("sleep 2")
+print(" e por aí vai.")
+--os.execute("sleep 2")
+
+os.execute("clear")
+
+
+numlocalX = io.read()
+if numlocalX == "1" then
+    a = 3
+end
+
+print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
 
 
 
 
+
+
+
+
+
+
+--[[learning about if then elseif to change the data on array
 
 print("digite um numero: ")
 
@@ -85,7 +102,6 @@ print("O resultado da sua " .. opc .. " é: " .. r)
 
 
 
---[[
 game[1]  game[4] game[7]
 game[2]  game[5]  game[8]
 game[3]  game[6]  game[9]
