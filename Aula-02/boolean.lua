@@ -11,9 +11,9 @@ print(20 == 20) --is identical to other
 
 
 
-more = 20
+local more = 20
 
-less = 10
+local less = 10
 
 
 

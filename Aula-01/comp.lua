@@ -7,8 +7,8 @@ print(25>=5)
 print(5>=25)
 --5 is less than 25 so returns true.
 
-numero = 200 
-casas = 400
+local numero = 200 
+local casas = 400
 print(numero)
 print(casas)
 
@@ -23,9 +23,9 @@ print(numero <= casas)
 --now returns true bcs its less than 400
 
 
-pa = "concatenacao d"
+local pa = "concatenacao d"
 
-rt ="e texto"
+local rt ="e texto"
 
 print(pa .. rt)
 
