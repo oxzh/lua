@@ -12,14 +12,14 @@
 
 
 -- if you want to update the local repo
-os.execute('git add -A')
-os.execute('git commit -a -m update')
-os.execute('git push')
+-- os.execute('git add -A')
+-- os.execute('git commit -a -m update')
+-- os.execute('git push')
 
 
 -- if you are sharing if your friend or other machine you can add the "git pull" to update to origin and merges the changes to your local repo
--- os.execute('cd .. && cd anime-photos && git add -A && git commit -a -m update && git push')
--- os.execute('cd .. && cd Wired && git add -A && git commit -a -m update && git push')
+os.execute('cd .. && cd anime-photos && git pull && git add -A && git commit -a -m photo && git push')
+os.execute('cd .. && cd Wired && git pull && git add -A && git commit -a -m Wired && git push')
 
 
 
