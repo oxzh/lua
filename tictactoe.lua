@@ -1,14 +1,20 @@
 game = {
-    [1] = "0",  [4] = "0",  [7] = "0",
-    [2] = "0",  [5] = "0",  [8] = "0",
-    [3] = "0",  [6] = "0",  [9] = "0"
+    [1] = "0",
+    [4] = "0",
+    [7] = "0",
+    [2] = "0",
+    [5] = "0",
+    [8] = "0",
+    [3] = "0",
+    [6] = "0",
+    [9] = "0"
 }
 
 
 --prints normal if have ONE array, but using two, i cant print for some reason; a = (game[1], game[2]);  a = (game[1];  game[2]) old shit
 a = game[1]
-b = game[2] 
-c = game[3] 
+b = game[2]
+c = game[3]
 
 d = game[4]
 e = game[5]
@@ -52,34 +58,25 @@ os.execute("clear")
 --FUNC PLAYER 1
 local function player1()
     numlocalX = io.read()
-    
+
     if numlocalX == "1" then
         a = 3
-    
     elseif numlocalX == "2" then
         b = 3
-    
-    elseif numlocalX  == "3" then
+    elseif numlocalX == "3" then
         c = 3
-    
     elseif numlocalX == "4" then
         d = 3
-    
     elseif numlocalX == "5" then
         e = 3
-    
     elseif numlocalX == "6" then
         f = 3
-        
     elseif numlocalX == "7" then
         g = 3
-        
     elseif numlocalX == "8" then
         h = 3
-        
     elseif numlocalX == "9" then
         i = 3
-        
     end
 end
 
@@ -90,47 +87,37 @@ local function player2()
 
     if numlocalX == "1" then
         a = 6
-    
     elseif numlocalX == "2" then
         b = 6
-    
-    elseif numlocalX  == "3" then
+    elseif numlocalX == "3" then
         c = 6
-    
     elseif numlocalX == "4" then
         d = 6
-    
     elseif numlocalX == "5" then
         e = 6
-    
     elseif numlocalX == "6" then
         f = 6
-    
     elseif numlocalX == "7" then
         g = 6
-    
     elseif numlocalX == "8" then
         h = 6
-    
     elseif numlocalX == "9" then
         i = 6
-    
-     end
-
+    end
 end
 
 
 --FUNC TO ASK PLAYER 1
 local function askPlayer1()
     io.write("Now the player ONE select a local to put your number: ", "\n",
-    print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+        print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f, "\n", g, h, i)
     )
 end
 
 --FUNC TO ASK PLAYER 2
 local function askPlayer2()
     io.write("Now the player ONE select a local to put your number: ", "\n",
-    print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f,"\n", g, h, i )
+        print("Tic Tac Toe Game:", "\n", a, b, c, "\n", d, e, f, "\n", g, h, i)
     )
 end
 
@@ -139,7 +126,7 @@ end
 
 askPlayer1()
 
-    player1()
+player1()
 
 os.execute("clear")
 
@@ -147,7 +134,7 @@ os.execute("clear")
 
 askPlayer2()
 
-    player2()
+player2()
 
 os.execute("clear")
 
@@ -155,7 +142,7 @@ os.execute("clear")
 
 askPlayer1()
 
-    player1()
+player1()
 
 os.execute("clear")
 
@@ -163,7 +150,7 @@ os.execute("clear")
 
 askPlayer2()
 
-    player2()
+player2()
 
 os.execute("clear")
 
@@ -171,7 +158,7 @@ os.execute("clear")
 askPlayer1()
 
 
-    player1()
+player1()
 
 
 os.execute("clear")
@@ -180,7 +167,7 @@ os.execute("clear")
 
 askPlayer2()
 
-    player2()
+player2()
 
 os.execute("clear")
 
@@ -458,4 +445,5 @@ print("O resultado da sua " .. opc .. " é: " .. r)
 game[1]  game[4] game[7]
 game[2]  game[5]  game[8]
 game[3]  game[6]  game[9]
-]]--
+]]
+   --
